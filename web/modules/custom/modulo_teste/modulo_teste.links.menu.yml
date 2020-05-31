@@ -1,0 +1,14 @@
+
+# Produtos menu items definition
+entity.produtos.collection:
+  title: 'Produtos list'
+  route_name: entity.produtos.collection
+  description: 'List Produtos entities'
+  parent: system.admin_structure
+  weight: 100
+
+produtos.admin.structure.settings:
+  title: 'Produtos settings'
+  description: 'Configure Produtos entities'
+  route_name: produtos.settings
+  parent: system.admin_structure

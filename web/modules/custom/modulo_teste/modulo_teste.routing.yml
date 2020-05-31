@@ -1,0 +1,7 @@
+modulo_teste.listaTeste:
+  path: '/listarprodutos'
+  defaults:
+    _controller: '\Drupal\modulo_teste\Controller\ProdutosController::listar'
+    _title: 'A lista de produtos'
+  requirements:
+    _permission: 'access content'

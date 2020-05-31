@@ -1,0 +1,26 @@
+# Produtos routing definition
+produtos.settings_tab:
+  route_name: produtos.settings
+  title: 'Settings'
+  base_route: produtos.settings
+
+entity.produtos.canonical:
+  route_name: entity.produtos.canonical
+  base_route: entity.produtos.canonical
+  title: 'View'
+
+entity.produtos.edit_form:
+  route_name: entity.produtos.edit_form
+  base_route: entity.produtos.canonical
+  title: 'Edit'
+
+entity.produtos.version_history:
+  route_name: entity.produtos.version_history
+  base_route: entity.produtos.canonical
+  title: 'Revisions'
+
+entity.produtos.delete_form:
+  route_name:  entity.produtos.delete_form
+  base_route:  entity.produtos.canonical
+  title: Delete
+  weight: 10

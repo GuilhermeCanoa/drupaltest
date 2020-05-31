@@ -1,0 +1,7 @@
+services:
+  logger.channel.modulo_teste:
+    parent: logger.channel_base
+    arguments: ['modulo_teste']
+  modulo_teste.default:
+    class: Drupal\modulo_teste\DefaultService
+    arguments: []

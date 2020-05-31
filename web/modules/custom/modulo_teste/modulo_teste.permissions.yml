@@ -1,0 +1,31 @@
+add produtos entities:
+  title: 'Create new Produtos entities'
+
+administer produtos entities:
+  title: 'Administer Produtos entities'
+  description: 'Allow to access the administration form to configure Produtos entities.'
+  restrict access: true
+
+delete produtos entities:
+  title: 'Delete Produtos entities'
+
+edit produtos entities:
+  title: 'Edit Produtos entities'
+
+view published produtos entities:
+  title: 'View published Produtos entities'
+
+view unpublished produtos entities:
+  title: 'View unpublished Produtos entities'
+
+view all produtos revisions:
+  title: 'View all Produtos revisions'
+
+revert all produtos revisions:
+  title: 'Revert all Produtos revisions'
+  description: 'Role requires permission <em>view Produtos revisions</em> and <em>edit rights</em> for produtos entities in question or <em>administer produtos entities</em>.'
+
+delete all produtos revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Produtos revisions</em> and <em>delete rights</em> for produtos entities in question or <em>administer produtos entities</em>.'
+
